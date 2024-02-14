@@ -26,7 +26,7 @@ dt.subheader(NumM[1])
 dt.subheader('หญิง')
 dt.subheader(NumF[1])
 dtSex=[NumM[1],NumF[1]]
-dtSexb=pd.DataFrame(dtSexb,index=["ชาย,"หญิง])
+dtSexb=pd.DataFrame(dtSexb,index=["ชาย","หญิง"])
 st.bar_chart(dtSexd)
 
 import matplotlib.pyplot as plt
